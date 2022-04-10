@@ -5,7 +5,7 @@ import seaborn as sns
 
 st.sidebar.title("Whatsapp Chat Analyzer")
 st.title("Whatsapp Chat Analyzer")
-st.image('1_O9ERcJLSpFcdIG4Ry1ednA.png')
+st.image('screenshots/banner.png')
 st.write('YOUR WHATSAPP CHATS. VISUALIZED .\n Have you ever wondered what going on in your WhatsApp groups might help you find out! With out of the box analytics you may easily discover , what\'s the most common emoji in the group, and how many messages are being sent every day.')
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
